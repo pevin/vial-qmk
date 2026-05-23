@@ -1,0 +1,25 @@
+# MCU / platform
+MCU = RP2040
+BOOTLOADER = rp2040
+
+# Vial
+VIAL_ENABLE = yes
+VIA_ENABLE = yes
+
+# Split keyboard
+SPLIT_KEYBOARD = yes
+
+COMBO_ENABLE = yes
+TAP_DANCE_ENABLE = yes
+KEY_OVERRIDE_ENABLE = yes
+OSM_ENABLE = yes
+MACRO_ENABLE = yes
+CAPS_WORD_ENABLE = yes
+REPEAT_KEY_ENABLE = yes
+
+# Recommended (safe defaults)
+LTO_ENABLE = yes
+EXTRAKEY_ENABLE = yes
+
+LAYER_LOCK_ENABLE = yes
+LEADER_ENABLE = yes
